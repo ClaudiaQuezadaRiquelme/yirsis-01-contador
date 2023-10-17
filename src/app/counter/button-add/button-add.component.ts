@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-button-add',
@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./button-add.component.css']
 })
 export class ButtonAddComponent {
+  @Input()
   counter: number = 0;
   add() {
     this.counter++;

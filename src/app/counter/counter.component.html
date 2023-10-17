@@ -1,6 +1,8 @@
 <h1>Contador: {{counter}}</h1> <!-- {{}} -> interpolación de variables. -->
 <hr>
 
-<app-button-add></app-button-add>
-<app-button-sub></app-button-sub>
+<app-button-add [counter]="counter"></app-button-add>
+<app-button-sub [counter]="counter"></app-button-sub>
+
+<!--  [counter]="counter" -> one way data binding  -->
 
