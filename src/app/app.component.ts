@@ -7,12 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'Contador';
-  counter: number = 0;
-
-  add() {
-    this.counter++;
-  }
-  sub() {
-    this.counter--;
-  }
 }
