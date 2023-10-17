@@ -12,4 +12,7 @@ export class AppComponent {
   add() {
     this.counter++;
   }
+  sub() {
+    this.counter--;
+  }
 }
