@@ -10,7 +10,7 @@ import { CounterModule } from './counter/counter.module';
   ],
   imports: [
     BrowserModule,
-    CounterModule
+    CounterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
