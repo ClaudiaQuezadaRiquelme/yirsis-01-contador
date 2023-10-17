@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
 })
 export class CounterComponent {
     counter: number = 0;
+
+    handleCount(value: number): void {
+        this.counter = value;
+    }
 }

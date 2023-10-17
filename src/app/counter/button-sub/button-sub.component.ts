@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-button-sub',
@@ -8,7 +8,12 @@ import { Component, Input } from '@angular/core';
 export class ButtonSubComponent {
   @Input()
   counter: number = 0;
+
+  @Output()
+  onSub: EventEmitter<number> = new EventEmitter();
+
   sub() {
     this.counter--;
+    this.onSub.emit(this.counter);
   }
 }
