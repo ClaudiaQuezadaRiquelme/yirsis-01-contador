@@ -21,6 +21,11 @@ describe('CounterComponent', ()=> {
         expect(component).toBeTruthy();
     });
 
+    it('Debe crear el texto "Contador: 23"', ()=> {
+        const compiled = fixture.nativeElement as HTMLElement;
+        expect(compiled.querySelector('h1')?.textContent).toContain('Contador: 23');
+    });
+
     // Prueba lógica
     it('Valor inicial del counter es 23', ()=> {
         const counter = new CounterComponent();
