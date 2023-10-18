@@ -1,0 +1,10 @@
+button {
+    background-color:indigo;
+    color: aliceblue;
+    border:none;
+    font-size: 2rem;
+}
+
+button:hover {
+    background-color: rgb(101, 47, 139);
+}
