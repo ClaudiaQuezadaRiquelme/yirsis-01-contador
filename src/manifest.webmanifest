@@ -1,8 +1,8 @@
 {
-  "name": "contador",
-  "short_name": "contador",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "name": "yirsis-contador",
+  "short_name": "y-contador",
+  "theme_color": "#8a2be2",
+  "background_color": "#0c0c0d",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
