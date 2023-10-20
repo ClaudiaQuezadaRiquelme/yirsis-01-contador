@@ -7,3 +7,12 @@ This project comes from [Angular desde cero](https://www.udemy.com/course/angula
 ## Deploy
 
 [https://yirsis-01-contador.netlify.app/](https://yirsis-01-contador.netlify.app/) <= Click here.
+
+## You can find in this project:
+
+- Google Fonts
+- @Input, @Output
+- modules
+- testing (unit and integration testing)
+- css
+- PWA
